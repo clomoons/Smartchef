@@ -1,0 +1,64 @@
+.auth-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  background-color: #0e4b2b; /* Deep green */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(46, 125, 50, 0.6); /* Soft green glow */
+  text-align: center;
+  color: #ffffff;
+}
+
+.auth-logo {
+  max-width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.auth-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e8f5e9;
+  margin-bottom: 1.5rem;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2e7d32; /* Button green */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #388e3c; /* Hover green */
+}
+
+.auth-footer {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #e8f5e9;
+}
+
+.auth-footer a {
+  color: #b2fab4; /* Light green link */
+  text-decoration: none;
+  margin-left: 0.25rem;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
